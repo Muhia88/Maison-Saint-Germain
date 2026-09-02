@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-cream: #F9F6F0;
+    --text-espresso: #1A1615;
+    --accent-gold: #C5A880;
+    --accent-darkgold: #9E7B4F;
+    --forest-green: #23342B;
+    --border-subtle: #E8E2D8;
+    --card-bg: #FFFFFF;
+  }
+
+  body {
+    background-color: #F9F6F0;
+    color: #1A1615;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif-vintage {
+    font-family: "Cormorant Garamond", "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F9F6F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8D0C5;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B3A898;
+}
+
+/* Subtle archival watermark pattern */
+.bg-archive-pattern {
+  background-color: #F9F6F0;
+  background-image: radial-gradient(#E5DDCF 0.75px, transparent 0.75px), radial-gradient(#E5DDCF 0.75px, #F9F6F0 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Noise overlay for paper texture */
+.paper-texture {
+  background-color: #FDFBF7;
+  box-shadow: inset 0 0 0 1px rgba(220, 210, 195, 0.4);
+}

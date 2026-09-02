@@ -1,0 +1,6 @@
+{
+  "name": "Maison Saint-Germain | Vintage Archive",
+  "description": "An archival vintage boutique curating authenticated luxury coats, tailoring, cashmere knitwear, and heritage accessories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

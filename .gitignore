@@ -1,0 +1,27 @@
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ── Build outputs ─────────────────────────────────────────────────────────────
+.next/
+out/
+dist/
+build/
+
+# ── Environment & secrets (NEVER commit these) ────────────────────────────────
+.env*
+!.env.example
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+coverage/
+.jest-cache/
+
+# ── OS / Editor artifacts ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+*.tsbuildinfo
+
+# ── Vercel / hosting ──────────────────────────────────────────────────────────
+.vercel
